@@ -1,0 +1,25 @@
+{
+  "name": "expressjs-starter-app",
+  "version": "1.0.0",
+  "description": "ExpressJS starter application for configuring NGINX with node.js on AWS EC2 server ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "starter",
+    "app",
+    "configuration",
+    "aws",
+    "nginx"
+  ],
+  "author": "Aleksandar Ristevski",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  }
+}
